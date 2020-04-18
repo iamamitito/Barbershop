@@ -13,3 +13,8 @@
         border-bottom-right-radius: 20px;
     }
 }
+@media only screen and (max-width: 900px) {
+    .pagination__link:hover{
+        background-color:$eerie-black;
+    }
+}

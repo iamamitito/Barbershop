@@ -4,6 +4,7 @@
     .naomi-section__card-block {
         margin: auto;
         width: fit-content;
+        text-align: justify;
     }
     .naomi-section__card-title {
         font-family: $playfair;
@@ -22,5 +23,10 @@
     }
     .naomi-section__card-link {
         font-size: $large;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .naomi-section__card .naomi-section__card-block {
+        text-align: center;
     }
 }

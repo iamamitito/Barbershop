@@ -6920,7 +6920,8 @@ body {
   padding-bottom: 50px; }
   .naomi-section__card .naomi-section__card-block {
     margin: auto;
-    width: fit-content; }
+    width: fit-content;
+    text-align: justify; }
   .naomi-section__card .naomi-section__card-title {
     font-family: "Playfair Display", serif;
     font-style: italic;
@@ -6936,6 +6937,9 @@ body {
   .naomi-section__card .naomi-section__card-link {
     font-size: 18px; }
 
+@media only screen and (max-width: 900px) {
+  .naomi-section__card .naomi-section__card-block {
+    text-align: center; } }
 .link {
   color: #ECBCBA; }
   .link:hover {
@@ -6954,5 +6958,9 @@ body {
   .pagination-section #pagination__next-list-item {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px; }
+
+@media only screen and (max-width: 900px) {
+  .pagination__link:hover {
+    background-color: #121619; } }
 
 /*# sourceMappingURL=main.css.map */
