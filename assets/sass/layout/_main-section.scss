@@ -1,0 +1,24 @@
+.main {
+    border-bottom:2px solid $platinum;
+}
+
+.main__container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .main__date {
+        font-family: $playfair;
+        font-size: $large;
+        color: $nickel;
+        margin-bottom: 40px;
+
+    }
+    .main__paragraph {
+        font-size: $medium;
+        font-family: $roboto;
+        font-weight: $light;
+        color: $raisin-black;
+        line-height: 3;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

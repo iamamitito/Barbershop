@@ -1,0 +1,14 @@
+.main__button {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium;
+    color: $platinum;
+    margin: 8px;
+    &:hover{
+        background-color: $light-gray;
+        border:$light-gray;
+    }
+    &:focus{
+        border: $light-gray;
+    }
+}

@@ -1,0 +1,15 @@
+.pagination-section {
+    background-color: $platinum;
+    .pagination__list{
+        margin-bottom: 0;
+    }
+    
+    #pagination__previous-list-item {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    #pagination__next-list-item {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}

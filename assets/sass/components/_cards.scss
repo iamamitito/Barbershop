@@ -1,0 +1,26 @@
+.naomi-section__card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .naomi-section__card-block {
+        margin: auto;
+        width: fit-content;
+    }
+    .naomi-section__card-title {
+        font-family: $playfair;
+        font-style: italic;
+        font-weight: $black;
+        font-size: $x-large;
+        padding-top:2rem;
+    }
+    .naomi-section__card-text {
+        padding-top:2rem;
+        font-weight: $light;
+        color: $nickel;
+        font-size: $small;
+        line-height: 2.5;
+
+    }
+    .naomi-section__card-link {
+        font-size: $large;
+    }
+}

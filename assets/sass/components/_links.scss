@@ -1,0 +1,10 @@
+.link {
+    color: $spanish-pink;
+    &:hover {
+        color: $raisin-black;
+        text-decoration: none;
+    }
+    &:focus{
+        color: $platinum;
+    }
+}
